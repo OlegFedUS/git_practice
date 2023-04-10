@@ -11,9 +11,7 @@ import org.testng.annotations.Test;
 public class First_Test {
 
     @Test
-    public void testSecond() throws InterruptedException {
-
-        System.out.println("Простой текст для проверки фиксов в гите.");
+    public void myNewTest() throws InterruptedException {
 
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("--remote-allow-origins=*", "--headless", "--window-size=1920,1080");
@@ -39,7 +37,6 @@ public class First_Test {
 
         driver.quit();
     }
-
 }
 
 
