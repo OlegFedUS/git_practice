@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 public class First_Test {
 
     @Test
-    public void testSecond() throws InterruptedException {
+    public void myNewTest() throws InterruptedException {
 
         //  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         //  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
