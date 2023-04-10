@@ -13,8 +13,10 @@ public class First_Test {
     @Test
     public void testSecond() throws InterruptedException {
 
-        //ChromeOptions chromeOptions = new ChromeOptions();
-        //chromeOptions.addArguments("--remote-allow-origins=*", "--headless", "--window-size=1920,1080");
+        System.out.println("Простой текст для проверки фиксов в гите.");
+
+        ChromeOptions chromeOptions = new ChromeOptions();
+        chromeOptions.addArguments("--remote-allow-origins=*", "--headless", "--window-size=1920,1080");
         // Данные опции важны для remote тестов, так как без них ничего не запустится
 
         WebDriver driver = new ChromeDriver();
